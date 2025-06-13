@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.lukim9.armscaler.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PlayerEntityModelMixin",
+    "PlayerEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

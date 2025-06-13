@@ -1,0 +1,4 @@
+accessWidener
+accessible class net/minecraft/client/render/entity/model/PlayerEntityModel
+accessible field net/minecraft/client/render/entity/model/PlayerEntityModel leftArm
+accessible field net/minecraft/client/render/entity/model/PlayerEntityModel rightArm

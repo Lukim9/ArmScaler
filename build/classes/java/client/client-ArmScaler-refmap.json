@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "com/github/lukim9/armscaler/mixin/client/PlayerEntityModelMixin": {
+      "setAngles(Lnet/minecraft/client/render/entity/state/PlayerEntityRenderState;)V": "Lnet/minecraft/class_591;method_62110(Lnet/minecraft/class_10055;)V"
+    },
+    "com/github/lukim9/armscaler/mixin/client/PlayerEntityRendererMixin": {
+      "renderLeftArm": "Lnet/minecraft/class_1007;method_4221(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_2960;Z)V",
+      "renderRightArm": "Lnet/minecraft/class_1007;method_4220(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_2960;Z)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/github/lukim9/armscaler/mixin/client/PlayerEntityModelMixin": {
+        "setAngles(Lnet/minecraft/client/render/entity/state/PlayerEntityRenderState;)V": "Lnet/minecraft/class_591;method_62110(Lnet/minecraft/class_10055;)V"
+      },
+      "com/github/lukim9/armscaler/mixin/client/PlayerEntityRendererMixin": {
+        "renderLeftArm": "Lnet/minecraft/class_1007;method_4221(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_2960;Z)V",
+        "renderRightArm": "Lnet/minecraft/class_1007;method_4220(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_2960;Z)V"
+      }
+    }
+  }
+}

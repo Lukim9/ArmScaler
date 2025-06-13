@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "armscaler",
+  "version": "1.21.4",
+  "name": "ArmScaler",
+  "description": "ArmScaler for SuperShoulder Plugin",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/armscaler/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.github.lukim9.armscaler.client.ArmscalerDataGenerator"
+    ],
+    "client": [
+      "com.github.lukim9.armscaler.client.ArmscalerClient"
+    ],
+    "main": [
+      "com.github.lukim9.armscaler.Armscaler"
+    ]
+  },
+  "mixins": [
+    "armscaler.mixins.json",
+    {
+      "config": "armscaler.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
